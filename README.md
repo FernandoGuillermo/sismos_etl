@@ -8,20 +8,20 @@ Este proyecto implementa un pipeline de datos que **extrae información de sismo
 
 ```
 SISMOS_ETL/
-├── airflow/                  # Proyecto Airflow
-│   ├── dags/                # DAGs y funciones ETL
+├── airflow/
+│   ├── dags/
 │   │   ├── earthquake_etl.py
 │   │   ├── carga.py
 │   │   └── extracción_transformacion.py
-│   ├── plugins/             # (vacío por ahora)
-├── streamlit_app/           # App de visualización
+│   └── plugins/
+│       └── .gitkeep
+├── streamlit_app/
 │   └── visualizar_streamlit.py
-├── .env                     # ⚠️ Variables de entorno (NO subir)
-├── .env.example             # Plantilla para .env
-├── .gitignore               # Ignora archivos innecesarios
-├── Dockerfile               # Imagen personalizada Airflow
-├── docker-compose.yml       # Orquestación de servicios
-├── requirements.txt         # Dependencias del entorno
+├── .env.example
+├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
 └── README.md
 ```
 
