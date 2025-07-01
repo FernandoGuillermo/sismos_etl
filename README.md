@@ -83,8 +83,6 @@ Este valor se usa tanto en Airflow como en la aplicación Streamlit.
 - Extrae los datos de sismos en tiempo real desde **USGS Earthquake API**
 - Realiza transformaciones de limpieza y filtrado (por ejemplo, magnitud mínima)
 - Carga los datos en la base **PostgreSQL (Azure)**
-- Corre automáticamente **cada 1 hora** mediante Apache Airflow
-
 ---
 
 ## 📊 Visualización con Streamlit
