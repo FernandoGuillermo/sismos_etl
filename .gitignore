@@ -1,0 +1,27 @@
+# Entorno virtual (por si lo usás local)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Configuración personal
+.env
+
+# Airflow
+airflow/logs/
+airflow/tmp/
+
+# Otros
+*.log
+.DS_Store
+
+# Archivos
+airflow/dags/test_dag.py
+airflow/dags/test_pg_connection.py
+airflow/dags/test_postgres_connection.py
+airflow/dags/cargar_datos_manual.py
+airflow/dags/ejemplo-py
+
+# Carpetas generadas por Airflow
+logs/
+plugins/__pycache__/
