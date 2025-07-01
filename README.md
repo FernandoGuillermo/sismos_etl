@@ -95,39 +95,6 @@ Para ver los sismos en una app web interactiva:
 cd streamlit_app
 streamlit run visualizar_streamlit.py
 ```
-
-Asegurate de tener correctamente seteado el archivo `.env` con la conexión a PostgreSQL.
-
----
-
-## 🔐 Seguridad
-
-- Nunca se sube el archivo `.env` al repositorio.
-- Las credenciales se gestionan a través de variables de entorno.
-- Se provee un archivo `.env.example` con la estructura necesaria.
-
----
-
-## 🔧 Personalización
-
-Podés modificar:
-
-- La magnitud mínima filtrada en la transformación
-- El intervalo de ejecución del DAG (actualmente cada 1 hora)
-- El dashboard en Streamlit para mejorar visualizaciones
-
----
-
-## 🧪 Pruebas (opcional)
-
-Podés agregar pruebas unitarias en una carpeta `/tests`, por ejemplo:
-
-- Verificación de conexión a PostgreSQL
-- Validación del esquema del DataFrame
-- Tests de la lógica de transformación
-
----
-
 ## 📄 Licencia
 
 MIT © Fernando Pedernera
