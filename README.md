@@ -137,4 +137,4 @@ MIT © Fernando Pedernera
 ## 🤝 Contacto
 
 📧 fernandogpg21@gmail.com  
-🔗 [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/fgpedernera/))
+🔗 [LinkedIn](https://www.linkedin.com/in/fgpedernera/).
